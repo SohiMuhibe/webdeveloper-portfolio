@@ -127,7 +127,7 @@ main {
     justify-content: space-around;
 }
 
-.section-tittle {
+.section-title {
     text-align: center;
 }
 
@@ -185,4 +185,28 @@ main {
 .downlode-cv{
     margin-top: 50px;
     text-align: center;
+}
+/* footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+   background: #ffefe3;
+  margin-top: 100px;
+   padding: 139px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link{
+    margin-right: 25px;
+}
+.contact input[type="text"],input[type="email"] ,textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding:18px 35px ;
+    color: #474747;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
